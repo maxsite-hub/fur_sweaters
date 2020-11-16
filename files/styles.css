@@ -496,6 +496,10 @@ body {
   line-height: 1;
 }
 
+.main {
+  overflow: hidden;
+}
+
 .container {
   max-width: 1140px;
   min-width: 320px;
@@ -804,6 +808,7 @@ textarea {
 .link {
   width: 320px;
   height: 60px;
+  font-weight: bold;
   display: -webkit-box !important;
   display: -webkit-flex !important;
   display: -ms-flexbox !important;
@@ -1081,7 +1086,7 @@ textarea {
 
 .products-title {
   max-width: 750px;
-  margin: 0 auto 90px;
+  margin: 0 auto 20px;
   text-align: center;
   font-size: 36px;
   color: #231f3c;
@@ -1089,11 +1094,18 @@ textarea {
   text-transform: uppercase;
 }
 
-.products-subtitle {
-
-  font-size: 27px;
-  border-bottom: 3px solid red;
+.products-block-button {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
 }
+
+.products-subtitle {
+padding: 50px 0;
+  font-size: 25px;
+
+}
+
 
 .product-cont__title {
   max-width: 750px;
@@ -2575,6 +2587,18 @@ textarea {
   }
   .footer-link {
     margin: 5px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .products-block-button {
+    
+    flex-direction: column;
+  
+  }
+  .products-subtitle {
+    margin: 0 auto;
+    margin-bottom: 30px;
   }
 }
 
