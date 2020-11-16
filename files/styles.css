@@ -684,7 +684,7 @@ textarea {
 .header {
  
   width: 100%;
-  background: #f8f6ea url("bg1.jpg") center top no-repeat fixed;
+  background: #f8f6ea url("bg1.jpg") center no-repeat fixed;
   -webkit-background-size: initial initial;
           background-size: initial;
   padding: 1.5rem 0 5rem;
